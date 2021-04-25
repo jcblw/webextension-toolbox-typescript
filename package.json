@@ -1,6 +1,6 @@
 {
   "name": "webextension-toolbox-typescript",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "This is a plugin that automatically sets up Typescript for webextension toolbox webpack configuration.",
   "main": "index.js",
   "repository": "https://github.com/jcblw/webextension-toolbox-typescript",
