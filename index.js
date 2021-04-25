@@ -1,3 +1,5 @@
+const { resolve } = require("path");
+const GlobEntriesPlugin = require("webpack-watched-glob-entries-plugin");
 /**
  * withTypescript is a function that will allow you to override the web extension default
  * configuration with a configuration that allows you to write typescript files.
