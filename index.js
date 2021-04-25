@@ -5,10 +5,11 @@ const GlobEntriesPlugin = require("webpack-watched-glob-entries-plugin");
  * configuration with a configuration that allows you to write typescript files.
  * @param options A small set of options for further configuration of you webextension
  * @param options.webpack A function that will allow you to further configure webpack
+ * @param options.src Optional - Where your code lives defaults to app
  * @returns A function that can consume the output of webextension.config.webpack
  */
 const withTypescript = (options = {}) => (config, ...other) => {
-  const { webpack } = options;
+  const { webpack, src = "app" } = options;
   const entries = [
     resolve(src, "*.{js,mjs,jsx,ts,tsx}"),
     resolve(src, "?(scripts)/*.{js,mjs,jsx,ts,tsx}"),
