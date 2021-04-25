@@ -1,0 +1,17 @@
+{
+  "name": "webextension-toolbox-typescript",
+  "version": "1.0.0",
+  "description": "This is a plugin that automatically sets up Typescript for webextension toolbox webpack configuration.",
+  "main": "index.js",
+  "repository": "https://github.com/jcblw/webextension-toolbox-typescript",
+  "author": "Jacob Lowe",
+  "license": "MIT",
+  "private": false,
+  "dependencies": {
+    "ts-loader": "8.2",
+    "webpack-watched-glob-entries-plugin": "^2.1.9"
+  },
+  "peerDependencies": {
+    "typescript": "^4.2.4"
+  }
+}
