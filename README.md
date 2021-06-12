@@ -1,5 +1,7 @@
 # webextension-toolbox-typescript
 
+> Version 2 works with webpack 5 and earlier versions will work with 4
+
 This is a module that allows you to add [typescript](https://www.typescriptlang.org/) support to [webextension-toolbox](https://github.com/webextension-toolbox/webextension-toolbox), including root files and typescript with xml _tsx_.
 
 ```shell
